@@ -1,0 +1,108 @@
+/* Styles de base */
+.bodyy {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('/background.jpg')
+}
+
+/* En-tête */
+.en-tete {
+    background-color: #0f0f09;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+/* Contenu */
+.contenu {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Flexbox Sections */
+.section-sogeking-reve,
+.section-armes,
+.section-prime
+.ville {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Prime et Armes */
+.prime-container,
+.armes-container,
+.sogeking-container
+.ville {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.prime-item,
+.arme-item,
+.sogeking-item
+.ville {
+    text-align: center;
+    max-width: 200px;
+}
+
+.prime-item img,
+.arme-item img,
+.sogeking-item img {
+    max-width: 105%;
+    height: auto;
+    border: 2px solid #190c16;
+    border-radius: 8px;
+}
+
+/* L'Équipage */
+.section-equipage {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.equipage-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #190c16;
+    border-radius: 8px;
+}
+
+.equipage-container p {
+    margin-top: 10px;
+}
+
+/* Pied de page */
+.pied-de-page {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #190c16;
+    color: #ecf0f1;
+    margin-top: auto;
+}
